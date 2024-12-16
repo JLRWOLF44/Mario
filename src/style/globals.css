@@ -1,0 +1,14 @@
+ :root {
+    --main-color:#FFF;
+ }
+
+ * {
+
+    box-sizing:border-box ;
+
+ }
+
+ body {
+
+    margin: 0;
+ }

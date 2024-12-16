@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+header img {
+
+    height: 120px;
+}
+ header nav a {
+
+    font-size: 1.5rem;
+margin:0 1rem ;
+
+
+ }
+
