@@ -1,3 +1,5 @@
+import "./Home.css"
+
 function Home() {
 
     return (
@@ -5,22 +7,42 @@ function Home() {
        <section className="card-section">
         <figure>
 
-            <img src="" alt="representation de mario" />
+            <img src="https://upload.wikimedia.org/wikipedia/en/5/5c/Mario_by_Shigehisa_Nakaue.png" alt="representation de mario" />
 
             <figcaption>Mario</figcaption>
         </figure>
         <figure>
 
-            <img src="" alt="" />
+            <img src="https://upload.wikimedia.org/wikipedia/en/5/5c/Mario_by_Shigehisa_Nakaue.png" alt="" />
 
             <figcaption>Mario</figcaption>
         </figure>
         <figure>
 
-            <img src="" alt="" />
+            <img src="https://upload.wikimedia.org/wikipedia/en/5/5c/Mario_by_Shigehisa_Nakaue.png" alt="" />
 
             <figcaption>Mario</figcaption>
         </figure>
+
+<figure>
+
+            <img src="https://upload.wikimedia.org/wikipedia/en/5/5c/Mario_by_Shigehisa_Nakaue.png" alt="representation de mario" />
+
+            <figcaption>Mario</figcaption>
+        </figure>
+        <figure>
+
+            <img src="https://upload.wikimedia.org/wikipedia/en/5/5c/Mario_by_Shigehisa_Nakaue.png" alt="" />
+
+            <figcaption>Mario</figcaption>
+        </figure>
+        <figure>
+
+            <img src="https://upload.wikimedia.org/wikipedia/en/5/5c/Mario_by_Shigehisa_Nakaue.png" alt="" />
+
+            <figcaption>Mario</figcaption>
+        </figure>
+
        </section>
     )
 }
