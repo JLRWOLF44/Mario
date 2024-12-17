@@ -4,9 +4,11 @@
   gap: 8px;
 }
 
-#count {
+select {
   display: block;
+  width: 100%;
+  max-width: 75px;
+  font-size: 1.2em;
+  height: 50px;
   margin: 0 auto;
-  font-size: 2rem;
-  cursor: pointer;
 }
