@@ -1,3 +1,5 @@
+import "./Card.css"
+
 interface CardI {
     character: string;
     imgSrc: string;
