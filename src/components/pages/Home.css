@@ -1,8 +1,12 @@
 .card-section {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-   
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
 
-
+#count {
+  display: block;
+  margin: 0 auto;
+  font-size: 2rem;
+  cursor: pointer;
 }
