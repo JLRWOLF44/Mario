@@ -1,25 +1,33 @@
-import "./Header.css"
+import { NavLink } from "react-router-dom";
+import "./Header.css";
 
 function Header() {
+  return (
+    <header>
+      <nav>
+        <img
+          src="https://img.freepik.com/vecteurs-libre/degrade-illustration-oiseau-colore_343694-1741.jpg?t=st=1734345512~exp=1734349112~hmac=f4e238904694de9776157a90fbbe90f3269ffb606914d81e15af57f599aba2b1&w=740"
+          alt=" logo"
+        />
 
-    return (
-<header>
+        <a>
+          <ul>
+            <li>
+              <NavLink to="/"> Home</NavLink>
+            </li>
 
-    <img src="https://img.freepik.com/vecteurs-libre/degrade-illustration-oiseau-colore_343694-1741.jpg?t=st=1734345512~exp=1734349112~hmac=f4e238904694de9776157a90fbbe90f3269ffb606914d81e15af57f599aba2b1&w=740" 
-    alt=" logo" />
+            <li>
+              <NavLink to="/about"> About</NavLink>
+            </li>
 
-    <nav>
-
-        <a href="">home</a>
-        <a href="">Contact us</a>
-        <a href="">home</a>
-
-    </nav>
-</header>
-     
-    )
-  
-
+            <li>
+              <NavLink to="/support"> SUPPORT US</NavLink>
+            </li>
+          </ul>
+        </a>
+      </nav>
+    </header>
+  );
 }
 
 export default Header;

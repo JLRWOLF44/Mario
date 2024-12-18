@@ -9,7 +9,7 @@ function Home() {
   function handleSelect(event: React.ChangeEvent<HTMLSelectElement>) {
     setValue(event.target.value);
   }
-  52;
+
   const filterdArray =
     value !== "..." ? data.filter((el) => el.type.includes(value)) : data;
   return (
